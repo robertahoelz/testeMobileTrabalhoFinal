@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="assets/script/funcoes.js"></script>
+    <title>Pipocalizando - Home</title>
+  </head>
+
+  <body>
+    <div id="fundo">
+      <img
+        src="https://correiodosul.com/wp-content/uploads/2018/07/02-1.jpg"
+        alt=""
+      />
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/3d.png"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Pipocalizando</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../home/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pg- sobre/index.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pg-contato/index.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pg-noticias/index.html"
+                  >Noticias</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 style="text-align: center">Sucessos de Bilheteria</h1>
+    <div class="container my-1">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://wallpaperaccess.com/full/329583.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Avengers</h5>
+              <p>Dir. Joss Whedon</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://ewalflor.files.wordpress.com/2013/01/the_dark_knight_characters-wallpaper-1366x768.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Batman Begins</h5>
+              <p>Dir. Christopher Nolan.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://img.elo7.com.br/product/original/3BCEF9E/painel-em-lona-avatar-2-0x1-50-lona-fosco-2-painel-em-lona.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Avatar</h5>
+              <p>Dir. James Cameron</p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br />
+    <h2>Assista o Trailer e Avalie</h2>
+    <hr />
+    <div class="containerCards">
+      <div class="cards">
+        <div
+          class="card"
+          id="c1"
+          style="
+            background-image: url('https://i.pinimg.com/736x/69/d0/bf/69d0bf5ef4f37e003a548691d527b362.jpg');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=idU-bx2x1a8"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+            /></a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Doutor Estranho no Multiverso da Loucura</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
+              >
+                <img src="assets/img/star0.png" id="s1-c1"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
+              >
+                <img src="assets/img/star0.png" id="s2-c1"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
+              >
+                <img src="assets/img/star0.png" id="s3-c1"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
+              >
+                <img src="assets/img/star0.png" id="s4-c1"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
+              >
+                <img src="assets/img/star0.png" id="s5-c1"
+              /></a>
+              <p id="rating-c1">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c2"
+          style="
+            background-image: url('https://br.web.img2.acsta.net/pictures/21/12/21/10/49/4342577.jpg');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=WONMTDpp3_E&ab_channel=Ingresso.com"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+            /></a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Animais Fantásticos: Os Segredos de Dumbledore</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
+              >
+                <img src="assets/img/star0.png" id="s1-c2"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
+              >
+                <img src="assets/img/star0.png" id="s2-c2"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
+              >
+                <img src="assets/img/star0.png" id="s3-c2"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
+              >
+                <img src="assets/img/star0.png" id="s4-c2"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
+              >
+                <img src="assets/img/star0.png" id="s5-c2"
+              /></a>
+              <p id="rating-c2">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c3"
+          style="
+            background-image: url('https://br.web.img2.acsta.net/c_310_420/pictures/22/03/02/19/26/3666027.jpg');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=ASoxH8aV4fw&ab_channel=TrailersBR"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+              />
+            </a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>The Batman</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
+              >
+                <img src="assets/img/star0.png" id="s1-c3"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
+              >
+                <img src="assets/img/star0.png" id="s2-c3"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
+              >
+                <img src="assets/img/star0.png" id="s3-c3"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
+              >
+                <img src="assets/img/star0.png" id="s4-c3"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
+              >
+                <img src="assets/img/star0.png" id="s5-c3"
+              /></a>
+              <p id="rating-c3">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c4"
+          style="
+            background-image: url('https://cinema10.com.br/upload/filmes/filmes_14101_morbius.jpg?default=poster');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=f1ozk30l5YQ&ab_channel=SonyPicturesBrasil"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+              />
+            </a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Morbius</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
+              >
+                <img src="assets/img/star0.png" id="s1-c4"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
+              >
+                <img src="assets/img/star0.png" id="s2-c4"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
+              >
+                <img src="assets/img/star0.png" id="s3-c4"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
+              >
+                <img src="assets/img/star0.png" id="s4-c4"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
+              >
+                <img src="assets/img/star0.png" id="s5-c4"
+              /></a>
+              <p id="rating-c4">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c5"
+          style="
+            background-image: url('https://img.melhoresfilmes.com.br/unsafe/320x480/https%3A%2F%2Fwww.melhoresfilmes.com.br%2Fstorage%2Fimgs%2Fposters%2F38011.jpg%3Ft%3D20211220170900');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=fxOEBm65oFo&ab_channel=Ingresso.com"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+            /></a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Homem-Aranha: Sem Volta pra Casa</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
+              >
+                <img src="assets/img/star0.png" id="s1-c5"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
+              >
+                <img src="assets/img/star0.png" id="s2-c5"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
+              >
+                <img src="assets/img/star0.png" id="s3-c5"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
+              >
+                <img src="assets/img/star0.png" id="s4-c5"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
+              >
+                <img src="assets/img/star0.png" id="s5-c5"
+              /></a>
+              <p id="rating-c5">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c6"
+          style="
+            background-image: url('https://br.web.img2.acsta.net/pictures/22/01/04/09/58/1947183.jpg');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=lfp3O3jSbWk&ab_channel=PrimeVideoBrasil"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+            /></a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Moonfall</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
+              >
+                <img src="assets/img/star0.png" id="s1-c6"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
+              >
+                <img src="assets/img/star0.png" id="s2-c6"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
+              >
+                <img src="assets/img/star0.png" id="s3-c6"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
+              >
+                <img src="assets/img/star0.png" id="s4-c6"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
+              >
+                <img src="assets/img/star0.png" id="s5-c6"
+              /></a>
+              <p id="rating-c6">0</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="c7"
+          style="
+            background-image: url('https://johto.legiaodosherois.com.br/wp-content/uploads/2022/03/legiao_o3wPmdNhIW_z.jpg');
+          "
+        >
+          <div class="top-card">
+            <a
+              href="https://www.youtube.com/watch?v=FtSL2wCTzhw&ab_channel=NickelodeonemPortugu%C3%AAs"
+              target="_blank"
+            >
+              <img
+                class="play-button"
+                src="assets/img/play-button.png"
+                alt="play-button"
+            /></a>
+          </div>
+          <div class="bottom-card">
+            <div class="film-name">
+              <p>Sonic 2</p>
+            </div>
+            <div class="star">
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(1,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
+              >
+                <img src="assets/img/star0.png" id="s1-c7"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(2,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
+              >
+                <img src="assets/img/star0.png" id="s2-c7"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(3,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
+              >
+                <img src="assets/img/star0.png" id="s3-c7"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(4,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
+              >
+                <img src="assets/img/star0.png" id="s4-c7"
+              /></a>
+              <a
+                href="javascript:void(0)"
+                onclick="Avaliar(5,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
+              >
+                <img src="assets/img/star0.png" id="s5-c7"
+              /></a>
+              <p id="rating-c7">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h2>Nossos diretores favoritos</h2>
+    <hr />
+    <div class="containerCards">
+      <div class="cards">
+        <div
+          class="card"
+          style="
+            background-image: url('https://elheraldoslp.com.mx/wp-content/uploads/2019/08/23-17.jpg');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a href="https://pt.wikipedia.org/wiki/Tim_Burton" target="_blank">
+              <p>Tim Burton</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://i.pinimg.com/736x/9d/ce/ff/9dceffc7bce984d94908bdd764159cdc--christopher-nolan-film-school.jpg');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a
+              href="https://pt.wikipedia.org/wiki/Christopher_Nolan"
+              target="_blank"
+            >
+              <p>Christopher Nolan</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://images.squarespace-cdn.com/content/v1/5cc3d1b051f4d40415789cc2/1563951740799-N07446HY57EL8RDSVN47/tarantino-usa-today.jpg?format=1000w');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a
+              href="https://pt.wikipedia.org/wiki/Quentin_Tarantino"
+              target="_blank"
+            >
+              <p>Quentin Tarantino</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9w900_Ae5fAvIizzmq-nN74T2s_0P-ODm_MP5J8BWUAdw0CKB3RBKLnxdSCj0Rjdo5M&usqp=CAU');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a href="https://pt.wikipedia.org/wiki/James_Wan" target="_blank">
+              <p>James Wan</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/27/14/martinscorsese.png?width=1200');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a
+              href="https://pt.wikipedia.org/wiki/Martin_Scorsese"
+              target="_blank"
+            >
+              <p>Martin Scorsese</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://i.pinimg.com/originals/ba/a8/e1/baa8e16ae39c787cff66d008e57753ce.jpg');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a
+              href="https://pt.wikipedia.org/wiki/Steven_Spielberg"
+              target="_blank"
+            >
+              <p>Steven Spielberg</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="
+            background-image: url('https://www.theartistree.fm/wp-content/uploads/2022/04/Kathryn-Bigelow-3.jpg');
+          "
+        >
+          <div class="top-card"></div>
+          <div class="bottom-card">
+            <a
+              href="https://pt.wikipedia.org/wiki/Kathryn_Bigelow"
+              target="_blank"
+            >
+              <p>Kathryn Bigelow</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h2 class="trilha-sonora">Confira as melhores trilhas sonoras</h2>
+    <hr />
+    <div class="playlist">
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/49bMXy6mLpMPw45neSdpyn?utm_source=generator"
+        width="60%"
+        height="380"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      ></iframe>
+    </div>
+    <br />
+    <h2 class="h2-indicacao">Indicação de filme da semana!</h2>
+    <hr />
+    <div class="indicacao">
+      <div class="poster-indicacao">
+        <img
+          src="https://play-lh.googleusercontent.com/em2griqrHoxmxEss_WM5Fi2iqSEKrEfLNAltjX54lREOR0nz0du__KuSi2bA_YNjS4w"
+          alt="pôster do filme Interestellar. Na parte superior do pôster encontra escrito o título do filme 'Interestellar'. Ao centro do, um homem vestindo roupas de astronauta na cor branca."
+        />
+      </div>
+      <div class="sinopse">
+        <div class="sinopse-texto">
+          <p>
+            As reservas naturais da Terra estão chegando ao fim e um grupo de
+            astronautas recebe a missão de verificar possíveis planetas para
+            receberem a população mundial, possibilitando a continuação da
+            espécie. Cooper é chamado para liderar o grupo e aceita a missão
+            sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins
+            e Doyle, ele seguirá em busca de um novo lar.
+          </p>
+          <div class="trailer">
+            <a
+              href="https://www.youtube.com/watch?v=mbbPSq63yuM&ab_channel=WarnerBros.PicturesBrasil"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.discordapp.com/attachments/953010034399391744/974342798419587072/unknown.png"
+                alt="logo do Youtube na cor vermelha"
+            /></a>
+            <br />
+            assista ao trailer!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="desenvolvedores">
+        <p>
+          <strong>
+            Desenvolvedores: Alexandre | Amanda | Angelica | Henrique | Maria
+            Clara | Roberta <br />
+            Residência em TIC Software Serratec 2022.1 - Turma 01
+          </strong>
+        </p>
+      </div>
+      <div class="logo">
+        <img
+          src="./assets/logo5.png"
+          alt="uma pipoca sorridente, texto escrito 'pipocalizando' em branco e um pedaço de filme atrás."
+        />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
