@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: rgba(218, 0, 0, 0.834);
+}
+
+.containerCards a {
+  text-decoration: none;
+}
+h2 {
+  margin-bottom: 0.3rem;
+  margin-left: 2rem;
+  color: aliceblue;
+  -webkit-text-stroke: 1px rgb(55, 55, 55);
+}
+
+hr {
+  margin: 0%;
+  margin-bottom: 0.3rem;
+}
+
+h1 {
+  color: aliceblue;
+  background-color: rgb(55, 55, 55);
+}
+
+/*body {
+  background-image: url("https://correiodosul.com/wp-content/uploads/2018/07/02-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+body {
+  position: relative;
+}
+
+#fundo img {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.containerCards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+  margin-left: 0rem;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-gap: 0.4rem 0.4rem;
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 18rem;
+  box-shadow: 2px 3px 30px 2px rgb(55, 55, 55);
+  margin: auto;
+  background-color: rgb(55, 55, 55);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  object-fit: cover;
+  transform: scale(1);
+}
+
+.com-borda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 18rem;
+  box-shadow: 2px 3px 30px 2px gold;
+  margin: auto;
+  background-color: rgb(55, 55, 55);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  object-fit: cover;
+  transform: scale(1);
+}
+
+.top-card {
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-card {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0%;
+}
+
+.bottom-card-text {
+  height: 40%;
+}
+
+.play-button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  opacity: 0%;
+}
+
+.play-button img {
+  align-items: center;
+}
+
+.com-borda:hover .play-button,
+.card:hover .play-button {
+  transition: 1.5s;
+  opacity: 90%;
+}
+
+.com-borda:hover .bottom-card,
+.card:hover .bottom-card {
+  opacity: 100%;
+  transition: 1.5s;
+}
+
+.com-borda p,
+.card p {
+  margin: 0%;
+  color: aliceblue;
+}
+
+.com-borda:hover,
+.card:hover {
+  transform: scale(1.02);
+  background-size: 100% 60%;
+  transition: 0.5s;
+}
+
+.film-name {
+  height: 5.35rem;
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0.1rem;
+  height: 1, 75rem;
+}
+
+.star a img {
+  width: 10px;
+  height: 10px;
+  margin: 0%;
+}
+
+.star p {
+  margin-left: 5px;
+}
+
+button {
+  background-color: rgb(181, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.2rem;
+}
+
+.playlist {
+  display: flex;
+  justify-content: center;
+}
+
+.indicacao {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  box-shadow: 2px 3px 30px 2px rgb(55, 55, 55);
+  background-color: rgb(55, 55, 55);
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.poster-indicacao {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.poster-indicacao img {
+  width: 90%;
+}
+
+.sinopse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sinopse-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.sinopse-texto p {
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.sinopse-texto img {
+  width: 50px;
+  height: 30px;
+}
+
+.trilha-sonora,
+.h2-indicacao {
+  text-align: center;
+  margin-left: 0%;
+}
+
+
+
+@media (min-width: 400px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .poster-indicacao img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 575px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .indicacao {
+    flex-direction: row;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
+  }
+}
+
+@media (min-width: 767px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 80%;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
+  }
+  .sinopse-texto p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
+  }
+  .sinopse-texto p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 30%;
+  }
+  .sinopse {
+    width: 70%;
+  }
+  .sinopse-texto p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 30%;
+  }
+  .sinopse {
+    width: 70%;
+  }
+  .sinopse-texto p {
+    font-size: 1.6rem;
+  }
+}
